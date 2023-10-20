@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    color: #fff;
+   
+}
+.header{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/03959599-0873-40d7-b55d-6e8e04106812/PK-en-20230619-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+background-position: center;
+background-size: cover;
+position: relative;}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo
+{
+    width: 150px;
+}
+nav
+button{
+    background-color: red;
+    color: #fff;
+    padding: 4px;
+    border-color: red;
+    margin-right: 20px;
+}
+.headercontent{
+    padding: 10px;
+    margin: 100px;
+    text-align: center;
+}
+
+.headercontent h1{
+   margin-top: 100px; font-size: 60px;
+    font-weight: bolder;
+
+
+}
+.email{
+ border-radius: 4px;
+ margin-top: 5%;
+ padding: 16px;
+ overflow: hidden;
+ width: 300px;
+}
+.signupnow
+{
+    padding: 16px;
+    background-color: red;
+    color: #fff;
+    margin-left: 5px;
+}
+.features
+{margin-top: 100px;
+    font-size: 40px;
+    margin-left: 120px;
+    display:flex;
+    justify-content: space-between;
+
+    
+
+}
+.features img
+{margin-right: 120px;
+    
+}
+.acc{
+    margin: 250px;
+    font-size: large;
+
+}
+.acc li label
+{
+    font-size: 40px;
+background-color: rgb(212, 16, 16);
+list-style: none;
+margin:;
+display: flex;
+align-items: center;
+
+}
+
+label::after{
+
+    content: '';
+    font-size: 37px;
+    position: absolute;
+    right: 21%
+}
+input[type="radio"]{display: none;}
+
+.acc .content
+{
+ padding: 0 20px;
+   background:
+   text-align: left;
+   overflow: hidden;
+
+}
+ 
+
+
+.foot li{
+    padding: 10px;
+}
+.footer
+{
+   margin-top: 30px;
+   border-top: 6px solid #333; 
+   color: #777;
+   display: flex;
+}
+.col 
+{
+    margin-left: 300px;
+display: inline-block;}
+
+.col a{
+
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+
+}
